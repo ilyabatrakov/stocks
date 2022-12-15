@@ -1,0 +1,71 @@
+body {
+    background-color: #9370DB;
+    margin: 0px;
+}
+
+.header-logo {
+    margin-left: 216px;
+    margin-right: 216px;
+    padding-left: 145px;
+    padding-right: 145px;
+    bottom: 8px; 
+    height: 117px; 
+    border: 1px; 
+    background-color: #FFFAFA;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-site {
+    font-size: 52px;
+    font-family: serif;
+}
+
+.portfolio {
+    color: #9370DB;
+}
+
+.search-window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.window {
+    width: 421px;
+    height: 35px;
+}
+
+.search-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.rectangle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1012px;
+    background-color: #FFFAFA;
+    border: 1px;
+    margin-top: 72px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 64px;
+    font-family:serif;
+}
