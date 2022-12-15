@@ -13,7 +13,7 @@ body {
     border: 1px; 
     background-color: #FFFAFA;
     display: flex;
-    gap: 32px;
+    gap: 40px;
     justify-content: space-between;
     justify-items: center;
     align-items: center;
@@ -31,15 +31,27 @@ body {
     font-family: serif;
 }
 
+.user-moves {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.add-stock {
+    width: 50px;
+    height: 50px;
+}
+
 .portfolio {
-    color: #9370DB;
+    color: #8057d3;
 }
 
 .search-window {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .window {
@@ -53,19 +65,59 @@ body {
 }
 
 .rectangle {
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 1012px;
-    background-color: #FFFAFA;
-    border: 1px;
     margin-top: 72px;
     margin-bottom: 5px;
-    display: flex;
+    width: 1012px;
+    height: 600px; /* Сделать динамическое увеличение высоты */
+    background-color: #FFFAFA;
 }
 
 .title {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     font-size: 64px;
     font-family:serif;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #D9D9D9;
+}
+
+.empty-1 {
+    border-style: solid;
+    border-width: 1px;
+    height: 38px;
+}
+
+.empty-2 {
+    border-style: solid;
+    border-width: 1px;
+    height: 38px;
+}
+
+.empty-3 {
+    border-style: solid;
+    border-width: 1px;
+    height: 38px;
+}
+
+.empty-4 {
+    border-style: solid;
+    border-width: 1px;
+    height: 38px;
 }
